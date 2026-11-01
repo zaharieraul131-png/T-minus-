@@ -1,0 +1,13 @@
+name = "t-minus-reminders"
+main = "src/index.ts"
+compatibility_date = "2026-10-15"
+workers_dev = true
+
+[triggers]
+crons = ["* * * * *"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "t-minus-db"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+migrations_dir = "migrations"

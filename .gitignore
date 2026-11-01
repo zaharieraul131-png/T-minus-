@@ -1,0 +1,16 @@
+# Android / Gradle
+.gradle/
+**/build/
+local.properties
+*.iml
+.idea/
+
+# Node / Cloudflare
+backend/node_modules/
+backend/.wrangler/
+backend/.dev.vars
+
+# Local secrets and logs
+.env
+.env.*
+*.log
