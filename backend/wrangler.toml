@@ -9,5 +9,5 @@ crons = ["* * * * *"]
 [[d1_databases]]
 binding = "DB"
 database_name = "t-minus-db"
-database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+database_id = "7a744532-6e95-450f-bf23-4c42b0c25fbd"
 migrations_dir = "migrations"
